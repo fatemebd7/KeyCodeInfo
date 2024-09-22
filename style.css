@@ -14,10 +14,11 @@ body {
 
 .title {
     margin-top: 50px;
-    margin-left: 650px;
     font-size: 50px;
     color: #191f2d;
-
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .footer {
@@ -29,7 +30,7 @@ body {
     height: 300px;
     width: 700px;
     margin: auto;
-    margin-left: 750px;
+    text-align: center;
     font-size: 300px;
     color: #191f2d;
 }
@@ -38,7 +39,8 @@ body {
     height: 100px;
     width: 700px;
     margin-top: 20pz;
-    margin-left: 780px;
+    margin-left: 600px;
+    text-align: center;
     font-size: 30px;
     color: #191f2d;
 
@@ -63,7 +65,7 @@ body {
     border-radius: 10px;
     border: 1px solid lightgray;
     box-shadow: 0 0 20px 1px lightgrey;
-    
+
 }
 
 .eventlocation {
