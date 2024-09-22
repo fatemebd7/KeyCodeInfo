@@ -38,7 +38,7 @@ body {
 .info {
     height: 100px;
     width: 700px;
-    margin-top: 20px; /* Fixed typo from "20pz" to "20px" */
+    margin-top: 20px; 
     margin-left: 600px;
     text-align: center;
     font-size: 30px;
