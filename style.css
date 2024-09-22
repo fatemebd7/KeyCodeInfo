@@ -1,0 +1,107 @@
+body {
+    box-sizing: border-box;
+    font-family: proxima-nova, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #f3f4f6;
+    border-radius: 0px;
+}
+
+.header {
+    height: 48.5px;
+    background-color: #204ecf;
+}
+
+.title {
+    margin-top: 50px;
+    margin-left: 650px;
+    font-size: 50px;
+    color: #191f2d;
+
+}
+
+.footer {
+    height: 48.5px;
+    background-color: #191f2d;
+}
+
+.title-witch {
+    height: 300px;
+    width: 700px;
+    margin: auto;
+    margin-left: 750px;
+    font-size: 300px;
+    color: #191f2d;
+}
+
+.info {
+    height: 100px;
+    width: 700px;
+    margin-top: 20pz;
+    margin-left: 780px;
+    font-size: 30px;
+    color: #191f2d;
+
+}
+
+.details {
+    height: 200px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.eventkey,
+.eventlocation,
+.eventwitch,
+.eventcode {
+    height: 150px;
+    width: 300px;
+    background-color: #fff;
+    margin: 20px;
+    margin-left: 250px;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    box-shadow: 0 0 20px 1px lightgrey;
+    
+}
+
+.eventlocation {
+    margin-left: 615px;
+}
+
+.eventwitch {
+    margin-left: 980px;
+}
+
+.eventcode {
+    margin-left: 1350px;
+}
+
+.event-title {
+    height: 35px;
+    background-color: #204ecf;
+    color: #fff;
+    font-size: 25px;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    overflow-wrap: anywhere;
+    flex-direction: row;
+
+}
+
+.key,
+.location,
+.witch,
+.code {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #191f2d;
+}
