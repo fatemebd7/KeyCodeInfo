@@ -38,12 +38,11 @@ body {
 .info {
     height: 100px;
     width: 700px;
-    margin-top: 20pz;
+    margin-top: 20px; /* Fixed typo from "20pz" to "20px" */
     margin-left: 600px;
     text-align: center;
     font-size: 30px;
     color: #191f2d;
-
 }
 
 .details {
@@ -65,7 +64,15 @@ body {
     border-radius: 10px;
     border: 1px solid lightgray;
     box-shadow: 0 0 20px 1px lightgrey;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.eventkey:hover,
+.eventlocation:hover,
+.eventwitch:hover,
+.eventcode:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.3);
 }
 
 .eventlocation {
@@ -93,7 +100,6 @@ body {
     border-radius: 10px 10px 0px 0px;
     overflow-wrap: anywhere;
     flex-direction: row;
-
 }
 
 .key,
